@@ -7,24 +7,27 @@
 #### Criando um projeto node
 - Acesse a pasta de desenvolvimento
 - Execute o comando abaixo:
-*YARN
-yarn init
 
-   *NPM
-   npm init
 
-  ####Instalando Cypress
+*YARN*
+ yarn init
+
+   *NPM*
+    npm init
+
+  #### Instalando Cypress
   |  npm install cypress@12.2.0 --save-dev
 
   #### Executando o Cypress via interface
-- Execute o comando abaixo:
-*YARN 
-yarn cypress open
+ Execute o comando abaixo:
 
-   *NPM
-   npx cypress open
+*YARN*
+  - yarn cypress open
+    
+   *NPM* 
+   - npx cypress open
 
-####Subindo API markL
+#### Subindo API markL
 - Acesse a pasta /apps
 - Execute os respectivos comandos abaixo primeiro na pasta** /api** depois na pasta **/web**
 **Comandos com yarn**
@@ -38,6 +41,7 @@ yarn cypress open
 3. npm run dev
 
 - Após clique no **primeiro** link de http:// conforme imagem abaixo.
+
 [![subindo-servidor](https://raw.githubusercontent.com/andersongulartew/cypress-express-mark/main/Img/subindo-servidor.png "subindo-servidor")](https://raw.githubusercontent.com/andersongulartew/cypress-express-mark/main/Img/subindo-servidor.png "subindo-servidor")
 - Irá abrir automaticamente o navegador, conforme abaixo:
 [![https://github.com/andersongulartew/cypress-express-mark/blob/main/Img/aplicacao.gif?raw=true](https://github.com/andersongulartew/cypress-express-mark/blob/main/Img/aplicacao.gif?raw=true "https://github.com/andersongulartew/cypress-express-mark/blob/main/Img/aplicacao.gif?raw=true")](https://github.com/andersongulartew/cypress-express-mark/blob/main/Img/aplicacao.gif?raw=true "https://github.com/andersongulartew/cypress-express-mark/blob/main/Img/aplicacao.gif?raw=true")
